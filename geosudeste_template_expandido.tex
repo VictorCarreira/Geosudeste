@@ -1,0 +1,160 @@
+% Arquivo Criado por Victor Carreira@2015
+% see http://writer2latex.sourceforge.net for more info
+\documentclass[letterpaper]{report}
+\usepackage{lipsum} % Required to insert dummy text. To be removed otherwise
+\usepackage{epstopdf}%adiciona imagens em formato eps no pdf.
+\usepackage{subfigure}%cria ambientes de multifiguras
+\usepackage{float}%coloca as figuras exatamente aonde você quer
+\usepackage[monochrome]{xcolor}%imprime o arquivo final em preto e branco
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\usepackage{lipsum} % Required to insert dummy text. To be removed otherwise
+\usepackage{multicol, blindtext, graphicx}%cria figura na página inteira
+\usepackage{booktabs} % To thicken table lines
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english,portuges]{babel}
+\usepackage{amsmath}
+\usepackage{amssymb,amsfonts,textcomp}
+\usepackage{color}
+\usepackage{array}
+\usepackage{graphicx}
+\usepackage{hhline}
+\usepackage{hyperref}
+\hypersetup{pdftex, colorlinks=true, linkcolor=blue, citecolor=blue, filecolor=blue, urlcolor=blue, pdftitle=}
+% Page layout (geometry)
+\setlength\voffset{-1in}
+\setlength\hoffset{-1in}
+\setlength\topmargin{0.7cm}
+\setlength\oddsidemargin{2cm}
+\setlength\textheight{22.739cm}
+\setlength\textwidth{17.59cm}
+\setlength\footskip{0.0cm}
+\setlength\headheight{1.3cm}
+\setlength\headsep{1.201cm}
+% Footnote rule
+\setlength{\skip\footins}{0.119cm}
+\renewcommand\footnoterule{\vspace*{-0.018cm}\setlength\leftskip{0pt}\setlength\rightskip{0pt plus 1fil}\noindent\textcolor{black}{\rule{0.25\columnwidth}{0.018cm}}\vspace*{0.101cm}}
+% Pages styles
+\makeatletter
+\newcommand\ps@Standard{
+  \renewcommand\@oddhead{\includegraphics[scale=0.3]{LOGOgeosudeste.jpg}	\includegraphics[scale=0.8]{NSP.jpg}}
+  \renewcommand\@evenhead{\@oddhead}
+  \renewcommand\@oddfoot{}
+  \renewcommand\@evenfoot{}
+  \renewcommand\thepage{\arabic{page}}
+}
+\makeatother
+\pagestyle{Standard}
+\title{}
+\begin{document}
+\clearpage\setcounter{page}{1}\pagestyle{Standard}
+{\centering\selectlanguage{english}
+\foreignlanguage{portuges}{\textcolor{blue}{(espaçamento simples 1,0)}}
+\par}
+
+{\centering\selectlanguage{english}
+\foreignlanguage{portuges}{\textbf{\textcolor{black}{TÍTULO DO RESUMO (Caixa alta, negrito, centralizado, Times New Roman, 12)}}}
+\par}
+
+{\centering\selectlanguage{portuges}\color{blue}
+(espaçamento simples 1,0)
+\par}
+
+{\centering\selectlanguage{english}
+\foreignlanguage{portuges}{\textcolor{black}{Nome do Autor}}\foreignlanguage{portuges}{\textcolor{black}{\textsuperscript{1}}}\foreignlanguage{portuges}{\textcolor{black}{, Nome do Autor}}\foreignlanguage{portuges}{\textcolor{black}{\textsuperscript{ 2}}}\foreignlanguage{portuges}{\textcolor{black}{, ..... (centralizado, Times New Roman, 11)}}
+\par}
+
+{\centering\selectlanguage{portuges}\color{blue}
+(espaçamento simples 1,0)
+\par}
+
+{\centering\selectlanguage{english}
+\foreignlanguage{portuges}{\textcolor{black}{\textsuperscript{1}}}\foreignlanguage{portuges}{\textcolor{black}{ Nome da Instituição, e-mail: e-mail do autor. (centralizado, Times New Roman, 9)}}
+\par}
+
+{\centering\selectlanguage{english}
+\foreignlanguage{portuges}{\textcolor{black}{\textsuperscript{2}}}\foreignlanguage{portuges}{\textcolor{black}{ Nome da Instituição, e-mail: e-mail do autor. (centralizado, Times New Roman, 9)}}
+\par}
+
+{\centering\selectlanguage{portuges}\color{blue}
+(espaçamento simples 1,0)
+\par}
+
+{\centering\selectlanguage{portuges}\color{blue}
+(espaçamento simples 1,0)
+\par}
+
+{\selectlanguage{english}
+\foreignlanguage{portuges}{\textbf{\textcolor{black}{RESUMO (negrito, caixa alta, alinhado à esquerda, Times New Roman, 11, 300 a 500 palavras)}}}}
+
+{\selectlanguage{english}
+\textcolor{black}{(TEXTO EXEMPLO COM 500 PALAVRAS)}\foreignlanguage{portuges}{\textcolor{black}{ (Justificado, Times New Roman, 11) }}\textcolor{black}{\ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi felis eros, ornare ac nibh at, rutrum maximus lectus. Cras eget feugiat ex. Duis condimentum, orci lacinia scelerisque elementum, purus odio vestibulum mauris, in efficitur nisl nulla ac lorem. Curabitur suscipit ex lectus. Etiam vitae malesuada nisl. Aliquam semper, tortor nec porta hendrerit, turpis ipsum tempor diam, vitae blandit tortor elit ut nisl. Curabitur velit nulla, dictum vitae sodales nec, porta eu arcu. Vestibulum quis sapien molestie, tincidunt mauris ut, pretium sapien. Curabitur sollicitudin libero ut dolor sodales mattis. Donec id sagittis ex, sollicitudin ultrices nibh. Proin nec dolor dapibus, bibendum dolor eu, euismod dolor. Quisque vestibulum ex ex, at volutpat arcu ullamcorper vel. Sed facilisis urna pharetra, egestas arcu id, tristique velit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus nec metus turpis. Proin aliquet turpis et lacus ultricies, id porta velit pretium. Nam non lectus volutpat magna sodales fringilla non ut est. Duis lobortis ex diam, eu auctor purus vestibulum vel. Aenean ac lacus ornare, scelerisque nulla eget, blandit nisl. Nulla commodo, mi in ultrices commodo, ante lorem convallis mi, venenatis commodo urna dui ut risus. Vivamus porttitor nisi blandit nisi tempus vehicula. Aliquam cursus sollicitudin fermentum. In felis dolor, commodo vitae elementum eget, aliquet ultricies diam. Sed viverra maximus elit, id consectetur arcu. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque et augue nunc. Quisque aliquam venenatis turpis eget convallis. Aliquam eget luctus ante, sed pharetra elit. Nam dapibus aliquet ultrices. Sed hendrerit, leo eget dignissim iaculis, velit quam interdum metus, sit amet rhoncus libero purus sed lectus. Vestibulum pulvinar a lorem posuere tristique. In interdum mollis dignissim. Fusce sit amet enim quis metus sollicitudin porta vitae vitae eros. Vivamus interdum mi eu porta dignissim. Donec nunc mi, sodales at nibh quis, sodales aliquet felis. Quisque convallis egestas odio, ut molestie lorem rutrum vitae. Aenean ligula turpis, condimentum at venenatis ac, scelerisque quis felis. Ut quis mi ut augue tincidunt aliquam. Cras risus ligula, vulputate ac rutrum non, luctus eget justo. Ut non arcu et lectus posuere condimentum sit amet at felis. Duis laoreet dolor vitae turpis placerat, in hendrerit quam sodales. Cras posuere tincidunt urna ac tincidunt. Morbi et diam et risus cursus sagittis sed in enim. Cras non enim eros. Duis ut ex nec erat lobortis commodo hendrerit ut felis. Vivamus ac enim sed nisi mollis vulputate a ac sapien. Curabitur lobortis ornare lobortis. Nullam suscipit arcu id odio sodales commodo. Phasellus volutpat vehicula erat, vel efficitur dui interdum sed. Duis dictum porttitor dui non pretium. Nam convallis diam non metus varius ultricies. In aliquam est sed feugiat dapibus. Phasellus lacinia auctor urna, maximus elementum nisi cursus sit amet. Phasellus ultricies quis purus iaculis maximus. Nulla ullamcorper consectetur scelerisque. Donec convallis sodales ligula in porttitor. Sed congue nibh est, sed auctor nisi consequat in. Vestibulum dictum risus vitae purus bibendum, ac laoreet orci sagittis. Donec tincidunt, sem id tincidunt rutrum, mauris quam vulputate eros.}}
+
+{\centering\selectlanguage{portuges}\color{blue}
+(espaçamento simples 1,0)
+\par}
+
+{\selectlanguage{english}
+\foreignlanguage{portuges}{\textbf{\textcolor{black}{Palavras-chave:}}}\foreignlanguage{portuges}{\textcolor{black}{ palavra1, palavra2, palavra3 (todas na mesma linha) (justificado, Times New Roman, 10)}}}
+
+{\centering\selectlanguage{english}
+\foreignlanguage{portuges}{\textcolor{blue}{(Quebra de Página)}}
+\par}
+
+\clearpage
+\bigskip
+
+{\selectlanguage{english}
+\foreignlanguage{portuges}{\textbf{\textcolor{black}{ITEM PRIMÁRIO (negrito, caixa alta, alinhado à esquerda, Times New Roman, 11)}}}}
+
+{\selectlanguage{english}
+\textcolor{black}{(TEXTO EXEMPLO)}\foreignlanguage{portuges}{\textcolor{black}{ (Justificado, Times New Roman, 11) }}\textcolor{black}{\ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis non ipsum vitae tortor iaculis elementum. Vivamus est odio, tempor a auctor non, posuere sit amet risus. Proin hendrerit condimentum consectetur. Sed dignissim, dui at elementum sodales, enim sapien tristique augue, ac finibus lorem erat sed odio. Donec non velit lorem. Praesent efficitur hendrerit nulla.}}
+
+{\centering\selectlanguage{english}
+\foreignlanguage{portuges}{\textcolor{blue}{\ (espaçamento simples 1,0)}}
+\par}
+
+{\selectlanguage{english}
+\foreignlanguage{portuges}{\textbf{\textcolor{black}{Item Secundário (negrito, alinhado à esquerda, Times New Roman, 11)}}}}
+
+{\selectlanguage{english}
+\textcolor{black}{(TEXTO EXEMPLO)}\foreignlanguage{portuges}{\textcolor{black}{ (Justificado, Times New Roman, 11) }}\textcolor{black}{\ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis non ipsum vitae tortor iaculis elementum. Vivamus est odio, tempor a auctor non, posuere sit amet risus. Proin hendrerit condimentum consectetur. Sed dignissim, dui at elementum sodales, enim sapien tristique augue, ac finibus lorem erat sed odio. Donec non velit lorem. Praesent efficitur hendrerit nulla.}}
+
+{\centering\selectlanguage{english}
+\foreignlanguage{portuges}{\textcolor{blue}{\ (espaçamento simples 1,0)}}
+\par}
+
+{\selectlanguage{english}
+\foreignlanguage{portuges}{\textbf{\textit{\textcolor{black}{Item Terciário (negrito, itálico, alinhado à esquerda, Times New Roman, 11)}}}}}
+
+{\selectlanguage{english}
+\textcolor{black}{(TEXTO EXEMPLO)}\foreignlanguage{portuges}{\textcolor{black}{ (Justificado, Times New Roman, 11) }}\textcolor{black}{\ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis non ipsum vitae tortor iaculis elementum. Vivamus est odio, tempor a auctor non, posuere sit amet risus. Proin hendrerit condimentum consectetur. Sed dignissim, dui at elementum sodales, enim sapien tristique augue, ac finibus lorem erat sed odio. Donec non velit lorem. Praesent efficitur hendrerit nulla.}}
+
+{\centering\selectlanguage{portuges}\color{blue}
+(espaçamento simples 1,0)
+\par}
+
+{\selectlanguage{english}
+\foreignlanguage{portuges}{\textbf{\textcolor{black}{Apoio}}}\foreignlanguage{portuges}{\textcolor{black}{: opcional, todos na mesma linha (justificado, Times New Roman, 10)}}}
+
+
+\bigskip
+
+{\selectlanguage{english}
+\foreignlanguage{portuges}{\textbf{\textcolor{black}{REFERÊNCIAS BIBLIOGRÁFICAS (negrito, caixa alta, alinhado à esquerda, Times New Roman, 11)}}}}
+
+{\centering\selectlanguage{portuges}\color{blue}
+(espaçamento simples 1,0)
+\par}
+
+{\selectlanguage{english}
+\foreignlanguage{portuges}{\textcolor{black}{AUTOR, INICIAIS (ANO). Título do Trabalho. Editora. Etc. (justificado, Times New Roman, 10)}}}
+
+
+
+\bigskip
+
+{\centering\selectlanguage{english}
+\foreignlanguage{portuges}{\textcolor{red}{OBS: O RESUMO EXPANDIDO PODE TER DE DUAS A CINCO PÁGINAS}}
+\par}
+\end{document}
